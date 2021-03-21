@@ -1,0 +1,464 @@
+/*
+Theme Name: Martin Luz
+Theme URI: www.localhost.com.br
+Author: Andre de Lucca
+Description: Este tema foi criado pela Martin Luz
+Version: 5.7
+Text Domain: martinluz
+Tags: martinluz
+*/
+
+/* */
+
+* {
+    box-sizing: border-box;
+  }
+
+/*.row-1 {
+    height: 97vh;
+    align-items: center;
+    text-align: center;
+    display: table-cell;*/
+}
+
+.col-6 {
+    float: left;
+    padding: 15px;
+    width: 50%;
+    height: auto;
+}
+
+.col-first {
+    position: relative;
+}
+
+.content-first{
+    width: 505px;
+    height: 324px;
+    margin-top: 80px;
+}
+
+#image-1 {
+    width: 706px;
+    height: 618px;
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+#text-um {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    color: #041F8F;
+}
+
+#text-dois {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #84888C;
+}
+
+.btn-secondary-1 {
+    background: #041F8F;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    /* FFFFFF */
+    color: #FFFFFF;
+}
+
+#text-tres{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0285C9;
+}
+
+#image-2 {
+    position: absolute;
+    width: 650px;
+    height: 368.03px;
+    left: 136px;
+    top: 632.99px;
+}
+
+#text-quatro {
+    position: absolute;
+    width: 375px;
+    height: 122px;
+    left: 832px;
+    top: 679px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    color: #303D63;
+}
+
+#text-cinco {
+    position: absolute;
+    width: 360px;
+    height: 156px;
+    left: 832px;
+    top: 809px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #84888C;
+}
+
+#text-seis {
+    position: absolute;
+    width: 313px;
+    height: 160px;
+    left: 256px;
+    top: 1184px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    color: #FFFFFF;
+}
+
+#text-sete {
+    position: absolute;
+    width: 347px;
+    height: 156px;
+    left: 256px;
+    top: 1351px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #FFFFFF;
+}
+
+.btn-secondary-2 {
+    position: absolute;
+    width: 256px;
+    height: 49.16px;
+    left: 256px;
+    top: 1523px;
+    background: #041F8F;
+    border-radius: 5px;
+}
+
+#image-3 {
+    position: absolute;
+    width: 547px;
+    height: 642px;
+    left: 767px;
+    top: 995px;
+}
+
+#UgCanvas-1 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 60px;
+    top: 1137px;
+    background: #0285C9;
+    border-radius: 15px;
+}
+
+#UgCanvas-2 {
+    position: absolute;
+    width: 100%;
+    height: 1088px;
+    left: 60px;
+    top: 1717px;
+    background: #F6F9FC;
+    border-radius: 15px;
+}
+
+#text-oito {
+    position: absolute;
+    width: 787px;
+    height: 44px;
+    left: 329px;
+    top: 1797px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 137%;
+    /* identical to box height, or 44px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041F8F;
+}
+
+#text-nove {
+    position: absolute;
+    width: 638px;
+    height: 56px;
+    left: 401px;
+    top: 1847px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    color: #84888C;
+}
+
+#image-4 {
+    position: absolute;
+    width: 154px;
+    height: 100px;
+    left: 267px;
+    top: 1976px;
+}
+
+#image-5 {
+    position: absolute;
+    width: 154px;
+    height: 100px;
+    left: 643px;
+    top: 1976px;
+}
+
+#image-6 {
+    position: absolute;
+    width: 153px;
+    height: 99px;
+    left: 1028px;
+    top: 1977px;
+    background: #FFFFFF;
+    mix-blend-mode: multiply;
+}
+
+#image-7 {
+    position: absolute;
+    width: 140px;
+    height: 91px;
+    left: 267px;
+    top: 2382px;
+}
+
+#image-8 {
+    position: absolute;
+    width: 105px;
+    height: 68px;
+    left: 668px;
+    top: 2395px;
+}
+
+#image-9 {
+    position: absolute;
+    width: 109px;
+    height: 71px;
+    left: 1050px;
+    top: 2395px;
+}
+
+#text-dez {
+    position: absolute;
+    width: 256px;
+    height: 49.16px;
+    left: 209px;
+    top: 2112.89px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #303D63;
+}
+
+#text-onze {
+    position: absolute;
+    width: 330px;
+    height: 151.4px;
+    left: 172px;
+    top: 2181.71px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #84888C;
+}
+
+#text-doze {
+    position: absolute;
+    width: 312px;
+    height: 57.02px;
+    left: 564px;
+    top: 2108.96px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #303D63;   
+}
+
+#text-treze {
+    position: absolute;
+    width: 352px;
+    height: 171.06px;
+    left: 544px;
+    top: 2181.71px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #84888C;
+}
+
+#text-quatorze {
+    position: absolute;
+    width: 256px;
+    height: 49.16px;
+    left: 976px;
+    top: 2112.89px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    /* 132E58 */
+    color: #303D63;
+}
+
+#text-quinze {
+    position: absolute;
+    width: 352px;
+    height: 135.67px;
+    left: 928px;
+    top: 2181.71px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #84888C;
+}
+
+#text-dezeseis {
+    position: absolute;
+    width: 286px;
+    height: 49.16px;
+    left: 194px;
+    top: 2502.21px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #303D63;
+}
+
+#text-dezesete {
+    position: absolute;
+    width: 348px;
+    height: 150.42px;
+    left: 163px;
+    top: 2571.02px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #84888C;
+}
+
+#text-dezoito {
+    position: absolute;
+    width: 263px;
+    height: 49px;
+    left: 585px;
+    top: 2505px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #303D63;
+}
+
+#text-dezenove {
+    position: absolute;
+    width: 338px;
+    height: 142.55px;
+    left: 551px;
+    top: 2571.02px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #84888C;
+}
+
+#text-vinte {
+    position: absolute;
+    width: 279px;
+    height: 49px;
+    left: 965px;
+    top: 2505px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #303D63;
+}
+
+#text-vinte-um {
+    position: absolute;
+    width: 352px;
+    height: 149.43px;
+    left: 928px;
+    top: 2571.02px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #84888C;
+}
